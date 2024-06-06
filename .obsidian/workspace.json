@@ -1,0 +1,181 @@
+{
+  "main": {
+    "id": "2dfb1d96b4b24a25",
+    "type": "split",
+    "children": [
+      {
+        "id": "970fe73b3175319a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "93bdb84c0cde81a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLM/Services/Oracle Cloud Infrastructure - Generative AI Service.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "831a517c3ea16f8c",
+    "type": "split",
+    "children": [
+      {
+        "id": "923b8fc9e2c1bfe8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd84635db51631ee",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c051c7da8d85f32a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Fine",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9386e9db443d0d0f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 237.5
+  },
+  "right": {
+    "id": "289342e3a578e030",
+    "type": "split",
+    "children": [
+      {
+        "id": "e3933e12199f5a6f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "28de3b2a49115cb4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "LLM/Services/Oracle Cloud Infrastructure - Generative AI Service.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f36f064f19a437d7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "LLM/Services/Oracle Cloud Infrastructure - Generative AI Service.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4f92ae6b09cf9315",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c49bf6bd67e3393e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "LLM/Services/Oracle Cloud Infrastructure - Generative AI Service.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "93bdb84c0cde81a7",
+  "lastOpenFiles": [
+    "LLM/LLM Architecture.md",
+    "LLM/LLM Decoding.md",
+    "LLM/Training/LLM Training.md",
+    "LLM/Prompting and Prompt Engineering.md",
+    "LLM/Hallucination.md",
+    "LLM/Applications/Retrieval Augmented Generation (RAG).md",
+    "LLM/LLM.md",
+    "LLM/Services/Oracle Cloud Infrastructure - Generative AI Service.md",
+    "LLM/Services",
+    "LLM/Applications/LLM Applications.md",
+    "Machine Learning/Self Attention.md",
+    "LLM/Applications/Language Agents.md",
+    "LLM/Applications/Multi-Modal.md",
+    "LLM/Applications/Code Models.md",
+    "LLM/Training/Low-Rank Adaptation (LoRA).md",
+    "LLM/Training/Parameter Efficient Fine Tuning (PEFT).md",
+    "LLM/Training",
+    "LLM/Applications",
+    "LLM Architecture.md",
+    "LLM/Images/LLM Training Hardware Costs.png",
+    "Machine Learning",
+    "Docker.md",
+    "LLM",
+    "Welcome.md",
+    "Untitled.canvas",
+    "create a link.md",
+    "LLM/Images",
+    "LLM/Images/LLM Model Ontology.png",
+    "2024-06-02.md"
+  ]
+}
