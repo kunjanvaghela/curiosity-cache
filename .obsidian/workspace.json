@@ -13,7 +13,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "RAG Application.png"
+                "file": "LLM/Images/RAG Application.png"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RAG Application.png",
+                "file": "LLM/Images/RAG Application.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RAG Application.png",
+                "file": "LLM/Images/RAG Application.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RAG Application.png"
+                "file": "LLM/Images/RAG Application.png"
               }
             }
           }
@@ -147,8 +147,8 @@
   "active": "dd84635db51631ee",
   "lastOpenFiles": [
     "LLM/Applications/RAG (Retrieval Augmented Generation).md",
-    "RAG Pipeline.png",
-    "RAG Application.png",
+    "LLM/Images/RAG Pipeline.png",
+    "LLM/Images/RAG Application.png",
     "README.md",
     "LLM/LLM Decoding.md",
     "LLM/Applications/LLM Applications.md",
