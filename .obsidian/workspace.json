@@ -11,11 +11,9 @@
             "id": "93bdb84c0cde81a7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "LLM/Services/Oracle Cloud Infrastructure - Generative AI Service.md",
-                "mode": "source",
-                "source": false
+                "file": "RAG Application.png"
               }
             }
           }
@@ -48,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Fine",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLM/Services/Oracle Cloud Infrastructure - Generative AI Service.md",
+                "file": "RAG Application.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLM/Services/Oracle Cloud Infrastructure - Generative AI Service.md",
+                "file": "RAG Application.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLM/Services/Oracle Cloud Infrastructure - Generative AI Service.md"
+                "file": "RAG Application.png"
               }
             }
           }
@@ -146,18 +144,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "93bdb84c0cde81a7",
+  "active": "dd84635db51631ee",
   "lastOpenFiles": [
-    "LLM/LLM Architecture.md",
+    "LLM/Applications/RAG (Retrieval Augmented Generation).md",
+    "RAG Pipeline.png",
+    "RAG Application.png",
+    "README.md",
     "LLM/LLM Decoding.md",
-    "LLM/Training/LLM Training.md",
-    "LLM/Prompting and Prompt Engineering.md",
+    "LLM/Applications/LLM Applications.md",
     "LLM/Hallucination.md",
-    "LLM/Applications/Retrieval Augmented Generation (RAG).md",
+    "LLM/Prompting and Prompt Engineering.md",
+    "LLM/LLM Architecture.md",
     "LLM/LLM.md",
+    "LLM/Training/Fine-Tuning (FT.md",
+    "LLM/Training/LLM Training.md",
     "LLM/Services/Oracle Cloud Infrastructure - Generative AI Service.md",
     "LLM/Services",
-    "LLM/Applications/LLM Applications.md",
     "Machine Learning/Self Attention.md",
     "LLM/Applications/Language Agents.md",
     "LLM/Applications/Multi-Modal.md",

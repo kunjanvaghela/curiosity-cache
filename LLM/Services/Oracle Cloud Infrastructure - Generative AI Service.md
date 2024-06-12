@@ -64,3 +64,4 @@
 	- A sentence embedding assosciates every sentence with a vector of numbers.
 
 #### Parameters for Embedding models
+?

@@ -2,7 +2,7 @@
 
 | Training Style                             | Modifies            | Data                   | Summary                   | Notes                                                                                        |
 | ------------------------------------------ | ------------------- | ---------------------- | ------------------------- | -------------------------------------------------------------------------------------------- |
-| Fine-Tuning (FT)                           | All parameters      | Labeled, task-specific | Classic ML training       | Full fine tuning an already existing model like BERT                                         |
+| [[Fine-Tuning (FT]])                       | All parameters      | Labeled, task-specific | Classic ML training       | Full fine tuning an already existing model like BERT                                         |
 | [[Parameter Efficient Fine Tuning (PEFT)]] | Few, new parameters | Labeled, task-specific | + Learnable params to LLM | Isolate old/Add new parameters for training. For example LORA method                         |
 | Soft prompting                             | Few, new parameters | Labeled, task-specific | Learnable prompt params   | Adding params to prompt                                                                      |
 | Continual Pre-Training                     | All parameters      | Unlabeled              | Same as LLM pre-training  | Training the model to predict the next word from millions of words of the specialized domain |
@@ -16,19 +16,6 @@
 > Cramming: Training a Language Model on a Single GPU in One Day:
 > https://arxiv.org/pdf/2212.14034
 
-
-
-## Techniques:
-
-#### Vanilla Fine Tuning:
-- Involves updating the weights of all the layers in the model.
-- Requires longer training time and higher serving (inference) costs.
-#### T-Few Fine Tuning
-- Selectively updates only a fraction of the model's weights.
-- Process:
-	- Start with the base model weights and annoted training data (labeled dataset).
-	- Generate T-Few Fine-Tuning Method
-	- Feed this to few layers, and then Fine Tune.
 
 
 
