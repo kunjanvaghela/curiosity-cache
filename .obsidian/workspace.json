@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "970fe73b3175319a",
+        "id": "271121bcc44f06da",
         "type": "tabs",
         "children": [
           {
-            "id": "93bdb84c0cde81a7",
+            "id": "5b3c6ed1fbfbae11",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "LLM/Images/RAG Application.png"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -83,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLM/Images/RAG Application.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLM/Images/RAG Application.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "LLM/Images/RAG Application.png"
-              }
+              "state": {}
             }
           }
         ]
@@ -144,11 +138,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dd84635db51631ee",
+  "active": "5b3c6ed1fbfbae11",
   "lastOpenFiles": [
+    "LLM/Images/RAG Application.png",
     "LLM/Applications/RAG (Retrieval Augmented Generation).md",
     "LLM/Images/RAG Pipeline.png",
-    "LLM/Images/RAG Application.png",
     "README.md",
     "LLM/LLM Decoding.md",
     "LLM/Applications/LLM Applications.md",
