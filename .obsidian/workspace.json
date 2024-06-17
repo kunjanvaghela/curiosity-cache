@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "271121bcc44f06da",
+        "id": "63fdd3c8d1641de0",
         "type": "tabs",
         "children": [
           {
-            "id": "5b3c6ed1fbfbae11",
+            "id": "51850e019916b0ea",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Testing/Testing.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5
+    "width": 237.5,
+    "collapsed": true
   },
   "right": {
     "id": "289342e3a578e030",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Testing/Testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Testing/Testing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Testing/Testing.md"
+              }
             }
           }
         ]
@@ -138,8 +147,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b3c6ed1fbfbae11",
+  "active": "51850e019916b0ea",
   "lastOpenFiles": [
+    "Testing/Selenium.md",
+    "Testing/Testing.md",
+    "Testing/Automation Testing.md",
+    "Testing",
     "LLM/Images/RAG Application.png",
     "LLM/Applications/RAG (Retrieval Augmented Generation).md",
     "LLM/Images/RAG Pipeline.png",
