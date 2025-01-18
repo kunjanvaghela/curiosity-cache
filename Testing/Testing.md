@@ -1,4 +1,5 @@
 
+[[API Testing]]
 [[Automation Testing]]
 
 
@@ -110,15 +111,172 @@ Formal Review Process
 6. Follow-up
 
 Roles and responsibilities
-1. The moderator
-2. The author
-3. The scribe
-4. The reviewers
-5. The manager
+1. The moderator - Lead, type of review, perform checks, entry checks, follow ups
+2. The author - To improve quality
+3. The scribe - Records and suggestions
+4. The reviewers - Checks material for bugs
+5. The manager - Allocates time and resources
 
-Types of Review:
-1. Walkthrough
-2. Technical Review
-3. Inspection
+Types of Review (in the order of formality):
+1. Informal
+2. Walkthrough
+3. Technical Review
+4. Inspection
+
+Review by:
+1. Ad hoc
+2. Checklist based
+3. Scenarios and Dry Runs
+4. Perspective-based
+5. Role-based
+
+Static Analysis by Tools
+1. Coding Standards
+	1. Using Linters
+2. Code Metrics
+3. Code Structure
+	1. Control Flow Structure
+	2. Data Flow Structure
+	3. Data Structure
 
 
+
+
+
+
+## 4. Test Design Techniques
+
+Test Analysis - process of looking for something to test using a set of inputs and outputs
+Test Case - A set of preconditions, inputs, expected results and postconditions, developed based on test condition.
+Test Condition - An item/event of a component or system that could be verified by one or more test cases.
+Test Oracle - 
+
+#### Static Testing Techniques:
+Covered in 3. chapter:
+1. Informal Reviews
+2. Walkthroughs
+3. Technical Reviews
+4. Inspection
+5. Static Analysis: Data Flow & Control Flow
+
+#### Dynamic Testing Techniques
+1. Structure-based (White-Box Testing):
+	1. Statement
+	2. Decision
+	3. Condition
+	4. Multiple Condition
+2. Experience Based
+	1. Error Guessing - based on testers knowledge working with similar functionalities, for ex:
+		- errors encountered in past
+		- what kind of errors that tend to come up
+		- failures encountered in another parts
+	1. Exploratory Testing
+3. Specification-based (Black-Box Testing mainly)
+	1. Equivalence Partitioning
+		- can be applied to any test level
+		- Process:
+			- Divide data into partitions, with all members of a given partition are expected to be processed in same way.
+			- Partitions can divided to sub-partitions if required.
+			- Test case must process with minimum of 1 value per partition with hypothesis that if 1 value of the partition works, then all others will also work.
+	2. Boundary Value Analysis
+	3. Decision Tables
+		- Cause-Effect table
+		- Process:
+			- Identify conditions and resulting actions.
+			- Inputs at top, actions at bottom
+	4. State Transition
+	5. Use Case Testing
+
+
+
+## 5. Test Management
+
+Roles:
+- Test Manager
+	- assembles & leads teams
+	- defines scopes
+	- distributes resources
+	- makes sure that the process runs smoothly & achieves results
+- Tester
+	- designs &
+	- executes tests
+
+Documentation Standards
+- Master Plan
+- Plans for test levels
+- Plans for functional tests
+- Plans for non-functional tests
+
+Test Approaches/Strategies
+1. Analytical: Risk-based
+2. Model-based
+3. Methodical
+4. Process- or standard-compliant
+5. Directed or Consultative
+6. Regression-averse
+
+
+Define:
+	- Entry Criteria
+	- Exit Criteria
+	- Find Test Dependencies
+	- Estimate sufficient time for Confirmation & Regression testing
+
+
+Test Estimate Techniques:
+1. Metric-based
+2. Expert based
+
+
+Test Control Estimation
+- Percentage of planned work done
+- Test Case Execution
+- Defect Information
+- Test Coverage
+- Task Completion, Resources Allocation & Usage
+- Cost of Testing
+
+
+Risks:
+1. Product Risks - Product fails to satisfy legitimate needs of its stakeholders.
+2. Project Risks
+
+
+Focus on Incident Reporting, Traceability to make sure that defects do not regress
+
+
+
+
+
+## 6. Tool support for Testing
+
+Types of Test Tool:
+1. Test Management Tools
+	- Like Jira, HPALM, Zephyr, TestRail, Test Collab, XQual, qTest, Qase, etc.
+2. Test Design and Implementation Tool
+	- On input of test field format, gives output like acceptable & Rejected cases
+	- Ex. Shsha testing tool.
+3. Test Execution & Logging Tools
+4. Static Testing Tools
+	- Like IDEs
+5. Performance Measurement & Dynamic Analysis Tools
+	- Ex. Apache JMeter, LoadInjector, LoadRunner, etc
+6. Specialized Testing Tools
+
+
+Test Execution Tools:
+1. Capture Test Approach - can capture UI steps by a user, but needs to be done again and again
+2. Data-Driven Test Approach - actions remain same, but input data is different.
+3. Keywork-Driven Test Approach - Sailfish Testing Tools.
+
+
+Tool Selection:
+1. Looking for Bottlenecks in the current Organization
+2. Compatibility of existing tools with the new tool
+3. Evaluate the tool against clear requirements and objective criteria
+4. Review Vendor for:
+	1. Reliability
+	2. Training & Support
+	3. Robust services
+5. Proof of Concept
+	1. Also settle on naming conventions, selecting coding standards, creating libraries, understanding the metrics for the new tool

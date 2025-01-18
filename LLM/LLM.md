@@ -1,3 +1,4 @@
+
 # Fundamentals of LLMs
 
 ## Intro to LLM
@@ -16,3 +17,7 @@
 
 ## Services:
 [[Oracle Cloud Infrastructure - Generative AI Service]]
+
+
+## Frameworks
+[[Langchain]]

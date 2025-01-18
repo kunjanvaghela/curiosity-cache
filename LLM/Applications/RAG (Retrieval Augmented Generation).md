@@ -11,7 +11,7 @@ flowchart LR
 - Claimed to reduce hallucination
 - Good for:
 	- Multi-document QA via fancy decoding, e.g., RAG-tok
-	- Dialogue, QA, fact-chceking, slot filling, entity-linking
+	- Dialogue, QA, fact-checking, slot filling, entity-linking
 	- Non-parametric: the same model can answer questions about any corpus, just add the new corpus.
 - Can be trained E2E
 
@@ -71,7 +71,8 @@ flowchart LR
 3. RAG retrieves information, and is able to form a grounded response but yet still fails to answer the user query.
 
 
-## RAG Evaluation:
+## RAG Evaluation (to remove Hallucination):
+
 1. Context Relevance: Is the retrieved context relevant to the query?
 2. Groundedness: Is the response supported by the context?
 3. Answer Relevance: Is the answer relevant to the query?

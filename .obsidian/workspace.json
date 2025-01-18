@@ -4,22 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "63fdd3c8d1641de0",
+        "id": "780eeaf36d4795db",
         "type": "tabs",
         "children": [
           {
-            "id": "51850e019916b0ea",
+            "id": "2d7b5c1acab278e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Testing/Testing.md",
+                "file": "Cloud/AWS/AWS Global Infrastructure.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "AWS Global Infrastructure"
+            }
+          },
+          {
+            "id": "039be279bcd972c3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -39,7 +54,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +71,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,15 +81,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 237.5,
-    "collapsed": true
+    "width": 302.5
   },
   "right": {
     "id": "289342e3a578e030",
@@ -86,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Testing/Testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +113,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
@@ -103,10 +124,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Testing/Testing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
@@ -117,7 +139,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,9 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Testing/Testing.md"
-              }
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           }
         ]
@@ -147,44 +171,47 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "51850e019916b0ea",
+  "active": "039be279bcd972c3",
   "lastOpenFiles": [
-    "Testing/Selenium.md",
-    "Testing/Testing.md",
-    "Testing/Automation Testing.md",
-    "Testing",
-    "LLM/Images/RAG Application.png",
-    "LLM/Applications/RAG (Retrieval Augmented Generation).md",
-    "LLM/Images/RAG Pipeline.png",
-    "README.md",
-    "LLM/LLM Decoding.md",
-    "LLM/Applications/LLM Applications.md",
-    "LLM/Hallucination.md",
-    "LLM/Prompting and Prompt Engineering.md",
-    "LLM/LLM Architecture.md",
-    "LLM/LLM.md",
-    "LLM/Training/Fine-Tuning (FT.md",
-    "LLM/Training/LLM Training.md",
+    "Untitled.canvas",
+    "DevOps/Agile.md",
+    "Cloud/AWS/AWS Global Infrastructure.md",
+    "Cloud/AWS",
+    "Untitled",
+    "Cloud",
+    "DevOps/Docker.md",
+    "Languages and Frameworks/Python/Python.md",
+    "Languages and Frameworks/Perl/Perl.md",
+    "Languages and Frameworks/Programming Languages.md",
+    "Languages and Frameworks/Python/Django.md",
+    "Languages and Frameworks/Perl",
     "LLM/Services/Oracle Cloud Infrastructure - Generative AI Service.md",
-    "LLM/Services",
-    "Machine Learning/Self Attention.md",
+    "LLM/Prompting and Prompt Engineering.md",
+    "LLM/Applications/RAG (Retrieval Augmented Generation).md",
+    "LLM/Applications/OCI Examples.md",
+    "LLM/Langchain.md",
+    "LLM/Training/Fine-Tuning (FT.md",
+    "LLM/LLM.md",
+    "LLM/Applications/LLM Applications.md",
     "LLM/Applications/Language Agents.md",
     "LLM/Applications/Multi-Modal.md",
     "LLM/Applications/Code Models.md",
-    "LLM/Training/Low-Rank Adaptation (LoRA).md",
-    "LLM/Training/Parameter Efficient Fine Tuning (PEFT).md",
-    "LLM/Training",
-    "LLM/Applications",
-    "LLM Architecture.md",
+    "LLM/Hallucination.md",
+    "LLM/LLM Decoding.md",
+    "LLM/Training/LLM Training.md",
+    "LLM/LLM Architecture.md",
+    "Machine Learning/NLP.md",
+    "Machine Learning/Regular Expression (RegEx).md",
+    "Languages and Frameworks/Java/Java.md",
+    "Languages and Frameworks/Java",
+    "LLM/Building Blocks",
+    "Data Analysis",
+    "System Design/Structural Patterns",
+    "System Design/Creational Patterns",
+    "System Design",
+    "LLM/Images/RAG Application.png",
+    "LLM/Images/RAG Pipeline.png",
     "LLM/Images/LLM Training Hardware Costs.png",
-    "Machine Learning",
-    "Docker.md",
-    "LLM",
-    "Welcome.md",
-    "Untitled.canvas",
-    "create a link.md",
-    "LLM/Images",
-    "LLM/Images/LLM Model Ontology.png",
-    "2024-06-02.md"
+    "LLM/Images/LLM Model Ontology.png"
   ]
 }

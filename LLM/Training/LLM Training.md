@@ -21,6 +21,6 @@
 
 
 ## GPU and Inferencing
-- GPU memory is limited, hence switching between midels can incur significant overhead due to reloading the full GPU memory.
+- GPU memory is limited, hence switching between models can incur significant overhead due to reloading the full GPU memory.
 - Custom models derived from the same base model can be used in the same GPU cluster as these models share the majority of weights, with only slight variations. --> Results in minimal overhead when switching between models.
 
